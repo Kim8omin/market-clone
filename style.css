@@ -148,18 +148,16 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0;
+    display: none;
 
 }
 @media screen and (min-width: 600px) {
     .media-info-msg {
-        opacity: 1;}
+        display: flex;}
     header {
-        opacity: 0;}
+        display: none;}
    main {
-    opacity: 0;
-   }
+    display: none;}
    footer {
-    opacity: 0; 
-   }
+    display: none;}
 }
