@@ -94,6 +94,12 @@ header {
     box-shadow: rgba(149,157,165,0.2) 0px 8px 24px;
     cursor: pointer;
 }
+
+.write-btn:hover {
+    background-color: rgba(254,111,15,0.8);
+}
+
+
 /*main-end*/
 
 /*footer*/
